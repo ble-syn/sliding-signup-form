@@ -582,8 +582,8 @@ body{
   
 .sign-up{
     padding-top: 50px;
-    -webkit-transform:translate3d(0, -500px, 0);
-            transform:translate3d(0, -500px, 0);
+    -webkit-transform:translate3d(0, -100%, 0);
+            transform:translate3d(0, -100%, 0);
 }
   
 .container.s-signup .sign-up{
