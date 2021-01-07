@@ -308,6 +308,7 @@ button{
 }
   
 .sign-up{
+    background: #fff;
     -webkit-transform:translate3d(-900px, 0, 0);
             transform:translate3d(-900px, 0, 0);
 }
@@ -404,7 +405,7 @@ button{
 @media (max-width: 600px) {
     body{
         width: 100%;
-        height: 100%;
+        height: 100vh;
         display: block;
     }
     
@@ -412,7 +413,7 @@ button{
         overflow: visible;
         position: relative;
         width: 100%;
-        height: 100%;
+        height: 100vh;
     }
     
     .form{
@@ -427,7 +428,7 @@ button{
     }
     
     .sub-container{
-        overflow: auto;
+        overflow: visible;
         position: absolute;
         left: 0;
         top: 500px;
@@ -472,8 +473,8 @@ button{
     }
     
     .container.s-signup .img:before{
-        -webkit-transform:translate3d(0, -500px, 0);
-                transform:translate3d(0, -500px, 0);
+        -webkit-transform:translate3d(0, 500px, 0);
+                transform:translate3d(0, 500px, 0);
     }
     
     .img-text{
@@ -565,13 +566,13 @@ button{
     
     .sign-up{
         padding-top: 50px;
-        -webkit-transform:translate3d(0, -100%, 0);
-                transform:translate3d(0, -100%, 0);
+        -webkit-transform:translate3d(0, 0, 0);
+                transform:translate3d(0, 0, 0);
     }
     
     .container.s-signup .sign-up{
-        -webkit-transform:translate3d(0, 500px, 0);
-                transform:translate3d(0, 500px, 0);
+        -webkit-transform:translate3d(0, 100%, 0);
+                transform:translate3d(0, 100%, 0);
     }
 
 }
