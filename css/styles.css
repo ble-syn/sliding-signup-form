@@ -405,7 +405,7 @@ button{
 @media (max-width: 600px) {
     body{
         width: 100%;
-        height: 100vh;
+        height: 100%;
         display: block;
     }
     
@@ -413,7 +413,7 @@ button{
         overflow: visible;
         position: relative;
         width: 100%;
-        height: 120vh;
+        height: 100vh;
     }
     
     .form{
@@ -472,8 +472,8 @@ button{
     }
     
     .container.s-signup .img:before{
-        -webkit-transform:translate3d(0, 650px, 0);
-                transform:translate3d(0, 650px, 0);
+        -webkit-transform:translate3d(0, 500px, 0);
+                transform:translate3d(0, 500px, 0);
     }
     
     .img-text{
@@ -570,8 +570,8 @@ button{
     }
     
     .container.s-signup .sign-up{
-        -webkit-transform:translate3d(0, 500px, 0);
-                transform:translate3d(0, 500px, 0);
+        -webkit-transform:translate3d(0, 100%, 0);
+                transform:translate3d(0, 100%, 0);
     }
 
 }
